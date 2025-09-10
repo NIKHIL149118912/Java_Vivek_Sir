@@ -9,6 +9,6 @@ class Java20
     }
     public static void main(String [] args)
     {
-        printJava(3,1);
+        printJava(20,1);
     }
 }
