@@ -11,6 +11,6 @@ class SumOfDigits
     }
     public static void main(String[] args)
     {
-        System.out.print(sumDigit());
+        System.out.print(sumDigit(564321));
     }
 }

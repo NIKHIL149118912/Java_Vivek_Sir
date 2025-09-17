@@ -159,7 +159,7 @@ public class Pattern {
     }
     
     void Alternate_01_triangle(int n)
-    {   int k=1;
+    {   int k;
         for(int i=1;i<=n;i++)
         {   
             if(i%2==0)
@@ -324,7 +324,7 @@ public class Pattern {
             s.hollowTriangle(line);//18
         System.out.println();
             s.upRightPyramid(line);//19
-        System.out.println("Do you Wish to continue ? press 1 for YES & 0 for NO");
+        System.out.println("Do you Wish to continue ?press 1 for YES & 0 for NO");
         choice = sc.nextInt();
         sc.close();
     }while(choice==1);
